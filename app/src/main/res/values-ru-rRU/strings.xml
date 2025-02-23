@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">DumpSeeker</string>
+    <string name="app_name_long">DumpSeeker</string>
+    <string name="activity_about">О приложении</string>
+    <string name="activity_settings">Настройки</string>
+    <string name="lavatories">Станции слива</string>
+    <string name="activity_manage">Управление местоположениями</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="navigation_drawer_open">Открыть навигационное меню</string>
+    <string name="navigation_drawer_close">Закрыть навигационное меню</string>
+    <string name="next">Далее</string>
+    <string name="okay">Хорошо</string>
+    <string name="slide1_heading">Добро пожаловать!</string>
+    <string name="slide1_text">DumpSeeker показывает станции слива для ваших местоположений.</string>
+    <string name="slide2_heading">Как это сделать</string>
+    <string name="slide2_text">Вы можете выбрать свои местоположения и получить станции слива в их окрестностях. Нажатие на станцию слива показывает ее на карте.</string>
+    <string name="slide3_heading" translatable="false">GitHub</string>
+    <string name="slide3_text">Исходный код этого приложения доступен на GitHub. Для дальнейших объяснений посмотрите стр. "О приложении".</string>
+    <string name="card_lavatories_heading">Последнее обновление</string>
+    <string name="card_error_content">Пожалуйста, попробуйте обновить!</string>
+    <string name="about_privacy_heading">Информация о конфиденциальности</string>
+    <string name="about_permission_internet_description">Подключение к сети: это разрешение необходимо, потому что данные извлекаются с помощью запросов к серверам в Интернете. Без этого разрешения информация о ценах не может быть получена. Дополнительно: авторизация для GPS.</string>
+    <string name="about">О приложении</string>
+    <string name="version_number">Версия</string>
+    <string name="about_license">Лицензия</string>
+    <string name="about_license_text">Это приложение основано на Privacy Friendly Weather, разработанном исследовательской группой SECUSO. Исходный код лицензирован по GPLv3. Приложение использует значки из Google Material Design Icons, лицензированные по Apache License Version 2.0, Android Volley, лицензированный по Apache License Version 2.0, библиотеки AndroidX, лицензированные по Apache License Version 2.0, AutoSuggestTextViewAPICall, лицензированный по Apache License Version 2.0, osmdroid, лицензированный по Apache License Version 2.0, и AndroidAddressFormatter, лицензированный по MIT License.</string>
+    <string name="about_more_info">Дополнительную информацию можно найти на:</string>
+    <string name="about_github" translatable="false"><a href="https://github.com/woheller69/dumpseeker">GitHub-репозиторий</a></string>
+    <string name="about_openstreetmap" translatable="false"><a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a></string>
+    <string name="activity_settings_title">Настройки</string>
+    <string name="settings_description_API">DumpSeeker получает данные из OpenStreetMap</string>
+    <string name="dialog_add_label">Введите местоположение для добавления:</string>
+    <string name="dialog_add_no_city_found">Не найдено местоположение, соответствующее вашему вводу. Рекомендуется выбрать один из элементов из выпадающего списка.</string>
+    <string name="dialog_add_close_button">Закрыть</string>
+    <string name="dialog_add_add_button">Добавить</string>
+    <string name="error_convert_to_json">Полученные данные были некорректными.</string>
+    <string name="error_no_internet">Ваше устройство не подключено к Интернету</string>
+    <string name="error_fetch_lavatories">Ошибка получения данных, пожалуйста, попробуйте снова!</string>
+    <string name="error_no_city_selected">Город не выбран. Чтобы выбрать город, перейдите в "Управление местоположениями".</string>
+    <string name="error_no_radius_search_result">Город не найден. Увеличьте радиус поиска</string>
+    <string name="error_no_map_app">Нет установленного приложения для карт</string>
+    <string name="settings_search_radius">Радиус поиска</string>
+    <string name="about_privacy_answer">DumpSeeker использует только разрешение "Интернет" для получения данных о ценах. Также в приложении нет механизмов отслеживания или рекламы.</string>
+    <string name="about_where_from">Откуда берется информация?</string>
+    <string name="about_where_from_answer">Информация извлекается из</string>
+    <string name="about_permissions">Разрешения</string>
+    <string name="long_press_text">Удерживайте и перетаскивайте для сортировки.</string>
+    <string name="swipe_to_delete">Проведите, чтобы удалить</string>
+    <string name="settings_title_display_options">Параметры отображения</string>
+    <string name="dialog_edit_change_button">Изменить</string>
+    <string name="edit_location_hint_name">Название</string>
+    <string name="settings_darkmode">Темный режим для Android 10+</string>
+    <string name="settings_position">Положение</string>
+    <string name="settings_GPS_summary">Разрешить использование текущей GPS-позиции в первой вкладке и в виджете. Обновление позиции инициируется автоматически виджетом.</string>
+    <string name="settings_GPS_position">Разрешить использование GPS</string>
+    <string name="error_no_position">Нет доступной позиции</string>
+    <string name="settings_time24h">24-часовой формат</string>
+    <string name="summary_time24h">Игнорировать системные настройки</string>
+    <string name="dialog_OK_button">ОК</string>
+    <string name="dialog_NO_button">Нет</string>
+    <string name="dialog_Later_button">Может быть позже</string>
+    <string name="dialog_StarOnGitHub">Вам нравится это приложение? Пожалуйста, поставьте ему звезду на GitHub или угостите разработчика кофе через PayPal.</string>
+    <string name="error_no_lavatory_found">Станции слива не найдены</string>
+    <string name="action_position">Обновить местоположение</string>
+    <string name="settings_GPS_manual">Только ручное обновление</string>
+    <string name="error_no_gps">Пожалуйста, включите GPS</string>
+    <string name="settings_map">Показать карту</string>
+    <string name="github" translatable="false">GitHub</string>
+    <string name="infoOpenStreetMap">Информация извлекается из OpenStreetMap</string>
+    <string name="customers_only">Только для клиентов</string>
+    <string name="settings_server_urls">URL-адреса серверов</string>
+    <string name="settings_server_summary">Изменяйте только в том случае, если хотите размещать свои собственные серверы</string>
+    <string name="dialog_search_here">Изменить местоположение?</string>
+</resources>
